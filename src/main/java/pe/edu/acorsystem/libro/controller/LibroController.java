@@ -32,14 +32,11 @@ public class LibroController {
 		logger.info("Fin el metodo buscarTodos");
 		return libro;
 	}
-	
 
 	@RequestMapping("/libros-mexico")
 	public List<Libro> buscarTodosLibrosMexido() {
 		
 		return servicioMexico.buscarTodos();
 	}
-
-
 
 }

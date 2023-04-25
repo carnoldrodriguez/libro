@@ -25,7 +25,6 @@ public class LibroController {
     @Qualifier("libroServiceMexico")
 	LibroService servicioMexico;
 	
-	
 	@RequestMapping("/libros")
 	public List<Libro> buscarTodos() {
 		logger.info("Inicio el metodo buscarTodos");
